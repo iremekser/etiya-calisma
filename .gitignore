@@ -131,3 +131,8 @@ dmypy.json
 processed
 songs
 multi_pool.py
+ssh_functions.py
+new.txt
+server.py
+client.py
+Reverse-Shell
