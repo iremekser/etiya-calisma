@@ -1,0 +1,34 @@
+_id,name,surname,grade,department
+1,İrfan Anıl,Sözüer,1,BİTKİ KORUMA BÖLÜMÜ
+2,Nilüfer,Saltuk,1,BAHÇE BİTKİLERİ BÖLÜMÜ
+3,Mahire,Yaşin,3,SİNEMA VE TELEVİZYON BÖLÜMÜ (İNGİLİZCE)
+4,Ayşe Neslihan,Buğdaypınarı,2,MÜZECİLİK BÖLÜMÜ
+5,Olca,Alibeyoğlu,2,ARKEOLOJİ BÖLÜMÜ
+6,Selen Elif,Kayacan,3,BASIM TEKNOLOJİLERİ BÖLÜMÜ
+7,Ecem,Pazar,3,TEKSTİL BÖLÜMÜ
+8,Arel,Ateş,3,BİYOMEDİKAL CİHAZ TEKNOLOJİSİ BÖLÜMÜ
+9,Yalçın,Uğur,1,TEKSTİL TASARIMI VE ÜRETİMİ BÖLÜMÜ
+10,Öget,Akıncılar,2,NÖROBİLİM BÖLÜMÜ
+11,Buse Gizem,Kıryayla,2,BİLGİSAYAR VE ÖĞRETİM TEKNOLOJİLERİ EĞİTİMİ BÖLÜMÜ
+12,Bayar,Topalan,3,BİTKİSEL ÜRETİM VE TEKNOLOJİLERİ BÖLÜMÜ
+13,Ecegül,Tabak,2,PETROL VE DOĞAL GAZ MÜHENDİSLİĞİ BÖLÜMÜ
+14,Acun,Kavukçu,2,SİNEMA VE TV BÖLÜMÜ
+15,Cenap,Saf,3,MOTORLU ARAÇLAR VE ULAŞIM TEKNOLOJİLERİ BÖLÜMÜ
+16,Furkan Ali Can,Soyadı,4,FİLM TASARIMI VE YÖNETMENLİK BÖLÜMÜ
+17,Çelik,Şahabettinoğlu,3,DİŞ HEKİMLİĞİ TEMEL BİLİMLERİ BÖLÜMÜ
+18,Yiğit,Barutçuoğlu,3,İŞLETME MÜHENDİSLİĞİ BÖLÜMÜ
+19,İsmail Enes,Birgili,1,BİYOENFORMATİK VE GENETİK BÖLÜMÜ
+20,Altan,Karakoca,3,ÇİZGİ FİLM VE ANİMASYON BÖLÜMÜ
+21,Erdem,Bal,3,ENERJİ SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+22,Mahmut Bilal,Baykal,1,KİMYA VE PROSES MÜHENDİSLİĞİ BÖLÜMÜ
+23,Şensoy,Aksöz,1,ULUSLARARASI İŞLETME YÖNETİMİ BÖLÜMÜ
+24,Yücel,Konakoğlu,2,TÜTÜN TEKNOLOJİSİ MÜHENDİSLİĞİ BÖLÜMÜ
+25,Haldun,Tunçay,4,"FİNANS, BANKACILIK VE SİGORTACILIK BÖLÜMÜ"
+26,Eylem,Erkuş,2,SES EĞİTİMİ BÖLÜMÜ
+27,Alya,Süleymanzade,4,PSİKOLOJİ BÖLÜMÜ (İNGİLİZCE)
+28,Burak Tatkan,Portakal,4,TAŞINABİLİR KÜLTÜR VARLIKLARINI KORUMA BÖLÜMÜ
+29,Çilay,Görgüner,4,SİNEMA VE TV BÖLÜMÜ
+30,İremnur,Kıldır,1,MÜZİK TEKNOLOJİLERİ BÖLÜMÜ
+31,Yeliz,Konyar,2,SANAT VE KÜLTÜR YÖNETİMİ BÖLÜMÜ
+32,Şenay,Küçükkase,2,TEKNİK PROGRAMLAR BÖLÜMÜ
+33,Yeter,Yolcu,4,SİYASET BİLİMİ VE KAMU YÖNETİMİ BÖLÜMÜ
