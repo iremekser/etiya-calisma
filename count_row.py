@@ -1,3 +1,8 @@
+from pyspark.sql import SparkSession
+from pyspark.sql.session import SparkSession
+from pyspark.context import SparkContext
+import pyspark  # Call this only after findspark.init()
+import findspark
 import psycopg2 as pg
 import pandas.io.sql as psql
 import pandas as pd
@@ -27,13 +32,26 @@ id_of_new_row = cursor.fetchone()[0]
 print(id_of_new_row)
 print('psycopg2 (cursor) ile geçen süre =', time.time() - start)
 
-# -----SPARK-----
-# import findspark
-# findspark.init()
-# import pyspark
-# sc = pyspark.SparkContext(appName="myAppName")
+findspark.init()
 
-# start = time.time()
-# sqlContext = SQLContext(sc)
-# sqlContext.createDataFrame(df).count()
-# print('spark func ile geçen süre =', time.time() - start)
+sc = SparkContext.getOrCreate()
+spark = SparkSession(sc)
+
+
+spark = SparkSession \
+    .builder \
+    .appName("Python Spark SQL basic example") \
+    .getOrCreate()
+
+df = spark.read \
+    .format("jdbc") \
+    .option("url", "jdbc:postgresql://localhost:5432/iremdb") \
+    .option("dbtable", "students") \
+    .option("user", "postgres") \
+    .option("password", "iii1234!") \
+    .option("driver", "org.postgresql.Driver") \
+    .load()
+
+start = time.time()
+print(df.count())
+print('spark ile count etme süresi =', time.time() - start)
