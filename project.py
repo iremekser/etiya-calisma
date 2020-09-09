@@ -6,7 +6,7 @@ conn = psycopg2.connect(
     "dbname='etiya' user='dwh_stg' host='192.168.1.45' password='Stg1220'")
 cursor = conn.cursor()
 
-owner = pd.DataFrame(columns=['party_id'])
+owner = pd.DataFrame()
 
 table_names = ['stg_dce_cust', 'stg_dce_party', 'stg_dce_gnl_st',
                'stg_dce_cust_tp', 'stg_dce_gnl_tp', 'stg_dce_gnl_st']
