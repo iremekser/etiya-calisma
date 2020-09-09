@@ -18,7 +18,8 @@ for name in table_names:
 
 m = pd.concat([owner, tables['stg_dce_cust']])
 
-m = pd.merge(m, tables['stg_dce_party'], how='left', on='party_id')
+# m = pd.merge(m, tables['stg_dce_party'], how='left', on='party_id')
+m = m.join(tables['stg_dce_party'], lsuffix='party_id', rsuffix='party_id')
 
 m = m.join(tables['stg_dce_gnl_st'], lsuffix='st_id', rsuffix='gnl_st_id')
 
