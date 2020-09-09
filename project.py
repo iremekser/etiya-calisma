@@ -13,7 +13,7 @@ table_names = ['stg_dce_cust', 'stg_dce_party', 'stg_dce_gnl_st',
 tables = {}
 
 for name in table_names:
-    sql = "select * from {} limit 10".format(name)
+    sql = "select * from {}".format(name)
     tables[name] = (pd.read_sql_query(sql, conn))
 
 m = pd.concat([owner, tables['stg_dce_cust']])
@@ -30,3 +30,4 @@ m = m.join(tables['stg_dce_gnl_tp'],
            lsuffix='party_tp_id', rsuffix='gnl_tp_id')
 
 m = m.join(tables['stg_dce_gnl_st'], lsuffix='st_id', rsuffix='gnl_st_id')
+
